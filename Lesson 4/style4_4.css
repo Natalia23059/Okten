@@ -1,0 +1,56 @@
+body{
+    background-image: url(vino-li.jpg) ;
+   
+}
+form{
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(12, 80, 39, 0.255) ;
+    margin: 130px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+h1{
+    margin: 10px auto 20px;
+    color:rgba(255, 255, 255, 0.843);
+}
+.field{
+    width: 200px;
+    height: 25px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.fullName{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.843);
+    font-size: 20px;
+}
+.gender, p, .company{
+    color:rgba(255, 255, 255, 0.843);
+    font-size: 20px;
+    margin-top: 10px;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.answer{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 50px 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.answer:hover{
+    background-color: #314933;
+    color: rgba(255, 255, 255, 0.843);
+    transition: 1s;
+
+}

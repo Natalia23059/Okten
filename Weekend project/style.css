@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+    overflow-x: hidden;
+}
+/*------------Page 1------------*/
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("image 4fon1.png");
+    background-size: cover;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.river{
+    width: 529px;
+    height: 393px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mainItem{
+    width: 529px;
+    height: 393px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+    margin: 53px auto 0;
+    font-weight: 400;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description1{
+    margin: 44px auto 0;
+    font-size: 25px;
+}
+.mainButton{
+    width: 409px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'KoHo';
+    font-size: 30px;
+    margin-top: 44px;
+}
+/*------------Page 2---------------*/
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fon2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.page2 > p{
+    width: 949px;
+    height: 188px;
+    font-size: 35px;
+}
+/*-----------Page 3--------------*/
+.page3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fon2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tour{
+    width: 454px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.4);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tour > img{
+    width: 409px;
+    height: 214px;
+    margin-top: 25px;
+}
+.tour > h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.tour > p {
+    font-size: 35px;
+}
+.tour > button{
+    width: 409px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'KoHo';
+    color: #6B6666;
+    font-size: 35px;
+}

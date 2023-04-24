@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style4_4.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Заповніть поля анкети</h1>
+      <div class="fullName">
+          <label
+            >Ваше ім'я:
+            <input type="text" name="firstName" class="field" required />
+          </label>
+          <label
+            >Ваше прізвище:
+            <input type="text" name="lastName" class="field" required />
+          </label>
+      </div>
+
+      <div class="gender">
+        <label>
+          Ваша стать <input type="radio" name="gender" value="female" /> Жіноча
+        </label>
+        <label>
+          <input type="radio" name="gender" value="male" /> Чоловіча
+        </label>
+      </div>
+
+      <p>Послугами якої сотової компанії Ви користуєтеся:</p>
+      <div class="company">
+          <label><input type="checkbox" id="heckbox1" /> KyivStar</label>
+          <label> <input type="checkbox" id="heckbox2" /> MTS</label>
+          <label> <input type="checkbox" id="heckbox3" /> Life:) </label>
+          <label> <input type="checkbox" id="heckbox4" /> PeopleNet</label>
+          <label> <input type="checkbox" id="heckbox5" /> Utel</label>
+      </div>
+
+      <div>
+          <input type="submit" value="Надіслати анкету" class="answer" />
+          <input type="reset" value="Очистити бланк" class="answer" />
+      </div>
+    </form>
+  </body>
+</html>
+<img src="" alt="">
