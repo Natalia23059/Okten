@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.a{
+    width: 100%;
+    height: 34%;
+    background: #5CACDF;
+}
+.main{
+    display: flex;
+}
+.item{
+    display: flex;
+}
+.b{
+    width: 75vw;
+    height: 33vh;
+    background: #0095F6;
+}
+.c{
+    width: 25vw;
+    height: 33vh;
+    background: #3d6fb4;
+}
+.d {
+    width: 25vw;
+    height: 33vh;
+    background: #68B5FA;
+}
+.e {
+    width: 25vw;
+    height: 33vh;
+    background: #8CCDF7;
+}
+.f{
+    width: 25vw;
+    height: 66vh;
+    background: #0C3F70;
+}
+.a, .b, .c, .d, .e, .f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
