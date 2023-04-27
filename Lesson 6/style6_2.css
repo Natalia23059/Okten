@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.a{
+    width: 100%;
+    height: 34%;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+}
+.items{
+    display: flex;
+}
+.b, .c, .d, .e, .f, .g{
+    width: 25vw;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.b{
+    background: #F8D501;
+}
+.c{
+    background: blanchedalmond;
+}
+.d{
+    background: moccasin;
+}
+.e{
+    background: sandybrown;
+}
+.f{
+    background: darkgoldenrod;
+}
+.g{
+    background: khaki;
+}
+.h{
+    width: 25vw;
+    height: 66vh;
+    background: #FEBB31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
